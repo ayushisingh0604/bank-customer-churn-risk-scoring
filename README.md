@@ -1,4 +1,4 @@
-# bank-customer-churn-risk-scoring
+# Predictive Modeling and Risk Scoring for Bank Customer Churn
 Predictive modeling a# 🏦 Bank Customer Churn Prediction & Risk Scoring
 
 ### Predictive Analytics | Machine Learning | Financial Analysis | Customer Retention
