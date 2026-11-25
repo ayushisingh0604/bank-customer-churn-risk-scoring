@@ -13,27 +13,55 @@ st.set_page_config(
 # --------------------------------------------------
 # CUSTOM DESIGN
 # --------------------------------------------------
+# --------------------------------------------------
+# CUSTOM LIGHT DESIGN
+# --------------------------------------------------
 st.markdown("""
 <style>
 .stApp {
-    background-color: #0b1120;
-    color: #f1f5f9;
+    background-color: #F4F7FB;
+    color: #1E293B;
 }
+
 [data-testid="stSidebar"] {
-    background-color: #111b2e;
+    background-color: #E8EEF6;
 }
-div[data-testid="stMetric"] {
-    background-color: #162338;
-    border: 1px solid #273953;
-    padding: 18px;
-    border-radius: 12px;
+
+[data-testid="stSidebar"] * {
+    color: #24364B !important;
 }
+
 h1, h2, h3 {
-    color: #67e8c5 !important;
+    color: #183B63 !important;
+}
+
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #DCE5EF;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(30, 60, 90, 0.05);
+}
+
+div[data-testid="stMetric"] label {
+    color: #64748B !important;
+}
+
+div[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    color: #2563EB !important;
+}
+
+.stPlotlyChart, [data-testid="stChart"] {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+hr {
+    border-color: #DCE5EF;
 }
 </style>
 """, unsafe_allow_html=True)
-
 # --------------------------------------------------
 # PROJECT DATA
 # --------------------------------------------------
