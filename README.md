@@ -22,7 +22,9 @@ Five machine learning algorithms were developed and evaluated to identify the mo
 The final model generates customer churn probabilities that are converted into risk categories to support customer retention strategies.
 
 ---
+### Live Dashboard
 
+🚀 [Launch Bank Customer Churn Dashboard]https://bank-customer-churn-risk-scoring-yewrm9xsn4xt4djg7veb9o.streamlit.app/
 ## 🎯 Project Objectives
 
 - Understand customer churn patterns.
